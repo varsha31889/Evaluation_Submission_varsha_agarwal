@@ -2,12 +2,12 @@
 <testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-08T15:49:13 IST" name="Default suite" finished-at="2024-07-08T15:49:16 IST" duration-ms="2924">
+  <suite started-at="2024-07-08T16:11:41 IST" name="Default suite" finished-at="2024-07-08T16:11:44 IST" duration-ms="2788">
     <groups>
     </groups>
-    <test started-at="2024-07-08T15:49:13 IST" name="Default test" finished-at="2024-07-08T15:49:16 IST" duration-ms="2924">
+    <test started-at="2024-07-08T16:11:41 IST" name="Default test" finished-at="2024-07-08T16:11:44 IST" duration-ms="2788">
       <class name="R_A_EVALUATION.RAEvaluation">
-        <test-method signature="Get_an_object_with_all_available_currency_exchange_rates()[pri:0, instance:R_A_EVALUATION.RAEvaluation@470734c3]" started-at="2024-07-08T15:49:13 IST" name="Get_an_object_with_all_available_currency_exchange_rates" finished-at="2024-07-08T15:49:16 IST" duration-ms="2874" status="PASS">
+        <test-method signature="Get_an_object_with_all_available_currency_exchange_rates()[pri:0, instance:R_A_EVALUATION.RAEvaluation@470734c3]" started-at="2024-07-08T16:11:42 IST" name="Get_an_object_with_all_available_currency_exchange_rates" finished-at="2024-07-08T16:11:44 IST" duration-ms="2744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_an_object_with_all_available_currency_exchange_rates -->

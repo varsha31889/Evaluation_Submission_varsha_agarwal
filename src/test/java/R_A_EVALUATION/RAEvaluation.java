@@ -10,7 +10,7 @@ import junit.framework.Assert;
 
 public class RAEvaluation {
   
-	//String accessToken = "ed4d1da4facf30118f4df4d90462a0ccf41e7aa160948863318443104d5930f2" ;
+	
 	@Test(enabled = true)
 	public void Simple_Books_API() {
 		Response rep = given().get("https://crypto-wallet-server.mock.beeceptor.com");
@@ -19,7 +19,7 @@ public class RAEvaluation {
 		
 	}
 	
-	@Test  (enabled = false)
+	@Test  (enabled = true)
 	public void Register_a_user_and_create_his_her_wallet() {
 		
 		JSONObject js = new JSONObject();
@@ -28,11 +28,11 @@ public class RAEvaluation {
 		js.put("password", "securepassword");
 		js.put("email", "user@example.com");
 		
-		given().body(js.toJSONString()).when().post("https://json-placeholder.mock.beeceptor.com/api/v1/register").then().statusCode(200).log().all();		
+		given().body(js.toJSONString()).when().post("https://crypto-wallet-server.mock.beeceptor.com/api/v1/register").then().statusCode(200).log().all();		
 	
 	}
 	
-	@Test  (enabled = false)
+	@Test  (enabled = true)
 	public void Login_the_user_and_generate_a_session_token() {
 		
 		JSONObject js = new JSONObject();
@@ -41,15 +41,15 @@ public class RAEvaluation {
 		js.put("password", "securepassword");
 		
 		
-		given().body(js.toJSONString()).when().post("https://json-placeholder.mock.beeceptor.com/api/v1/login").then().statusCode(200).log().all();		
+		given().body(js.toJSONString()).when().post("https://crypto-wallet-server.mock.beeceptor.com/api/v1/login").then().statusCode(200).log().all();		
 	
 	}
-	@Test  (enabled = false)
+	@Test  (enabled = true)
 	public void Retrieve_the_wallet_balance () {
 		given().get("https://crypto-wallet-server.mock.beeceptor.com/api/v1/balance").then().statusCode(200).log().all();
 	}
 	
-	@Test  (enabled = false)
+	@Test  (enabled = true)
 	public void List_all_the_transactions_done_by_the_user () {
 		given().get("https://crypto-wallet-server.mock.beeceptor.com/api/v1/transactions").then().statusCode(200).log().all();
 	}
